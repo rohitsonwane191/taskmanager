@@ -25,9 +25,7 @@ try {
     <div id='bodys1' className='register-page'>
     <Form layout='vertical' onFinish={submitHandler}>
       <h1 id='logo' >Login</h1>
-    
       <Form.Item label="Email" name="email">  
-      
         <Input type='email' placeholder='user123@gmail.com' required/>
         </Form.Item> 
       <Form.Item label="Password" name="password">
