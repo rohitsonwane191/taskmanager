@@ -1,0 +1,16 @@
+
+#bodys{
+    width: 400px !important;
+    height: 400px !important;
+    margin: 60px auto;
+    background: rgb(0, 0, 0,0.6) !important;
+    border: 3px solid ;
+    color: rgb(204, 223, 240);
+    justify-content: center !important;
+    padding: 40px !important;
+    border-radius: 25px ;
+}
+#btn-1{
+    margin-left: 200px !important;
+    justify-content: center !important;
+}
