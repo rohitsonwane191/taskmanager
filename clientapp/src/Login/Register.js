@@ -42,7 +42,7 @@ try {
 <button id='btn2'>Register</button>
     </Form>
 <br></br>
-<Link to="/Login" style={{color:'black'}}>Dont have an account ? register</Link>
+<Link to="/Login" id='Register-link' style={{color:'black'}}>Dont have an account ? Login</Link>
    </div>
   </>
   )

@@ -35,7 +35,7 @@ try {
 <button id='btn1'>Login</button>
     </Form>
 <br></br>
-<Link to="/loregister" id='link'>Dont have an account ? register</Link>
+<Link to="/loregister" id='login-link'>Dont have an account ? register</Link>
    </div>
    </>
   )

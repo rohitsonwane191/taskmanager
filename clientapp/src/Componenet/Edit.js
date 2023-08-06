@@ -67,10 +67,10 @@ e.preventDefault();
 
 <p id='updateData'> Update Data </p>
    <NavLink to="/home"><button className='btn btn-dark'>Home</button></NavLink>
-
     </div>
     <div>
       <form>
+
         <div className='row'>
         <div className='mb-3 col-lg-6 col-md-6 col-12'>
 <label>name</label>
@@ -94,7 +94,7 @@ e.preventDefault();
         </div>
         </div>
         <button id='submit-btn' type="submit" onClick={updateuser} className="btn btn-primary">Submit</button>
-      
+    
       </form>
     </div>
    </div>
