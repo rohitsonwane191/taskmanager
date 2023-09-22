@@ -66,30 +66,30 @@ e.preventDefault();
     <div id='btn-1'>
 
 <p id='updateData'> Update Data </p>
-   <NavLink to="/home"><button className='btn btn-dark'>Home</button></NavLink>
+   {/* <NavLink to="/home"><button className='btn btn-dark' id='home'>Home</button></NavLink> */}
     </div>
     <div>
       <form>
 
-        <div className='row'>
-        <div className='mb-3 col-lg-6 col-md-6 col-12'>
-<label>name</label>
+        <div className='col '>
+        <div className='mb-3 col-lg-8 col-md-8 col-12 mb-2 '>
+<label>Name</label>
 <input className='form-control' type='text'name='name' value={userdata.name} onChange={setdata} placeholder='enter name'/>
         </div>
-        <div className='mb-3 col-lg-6 col-md-6 col-12'>
-<label>email</label>
+        <div className='mb-3 col-lg-8 col-md-8 col-12 mb-2 '>
+<label>Email</label>
 <input className='form-control' type='text'name='email' value={userdata.email} onChange={setdata} placeholder='enter email'/>
         </div>
-        <div className='mb-3 col-lg-6 col-md-6 col-12'>
-<label>mobail</label>
+        <div className='mb-3 col-lg-8 col-md-8 col-12 mb-2 '>
+<label>Mobile</label>
 <input className='form-control' type='number' name='mobail' value={userdata.mobail} onChange={setdata} placeholder='enter mobail'/>
         </div>
-        <div className='mb-3 col-lg-6 col-md-6 col-12'>
+        <div className='mb-3 col-lg-8 col-md-8 col-12 mb-2 '>
 <label>work</label>
 <input className='form-control' type='text' name='work' value={userdata.work} onChange={setdata} placeholder='enter work'/>
         </div>
-        <div className='mb-3 col-lg-6 col-md-6 col-12'>
-<label>dsc</label>
+        <div className='mb-3 col-lg-8 col-md-8 col-12 mb-2 '>
+<label>Description</label>
 <input className='form-control' type='text'name='dsc' value={userdata.dsc} onChange={setdata} placeholder='enter dsc'/>
         </div>
         </div>

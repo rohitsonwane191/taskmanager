@@ -51,7 +51,7 @@ const deleteuser=async(id)=>{
   return (
     <> 
     <h3 className='text text-center'> welcome</h3>
-      <Card className='container-fluid col-7'>
+      <Card className='container-fluid col-5'>
       <Card.Header className='d-flex justify-content-between'>
       <Link to={`/edit/${id}`}> <Button className='btn btn-primary'> update </Button></Link>
       <Link to="/home"> <Button className='btn btn-dark'> Home </Button></Link> 

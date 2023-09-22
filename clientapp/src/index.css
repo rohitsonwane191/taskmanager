@@ -5,7 +5,20 @@ background-size: cover !important;
 }
 #bodys{
     width: 400px !important;
-    height: 560px !important;
+    height: 640px !important;
+    margin: 40px auto;
+    background: rgb(0, 0, 0,0.6) !important;
+    border: 2px solid !important;
+    border-color: white !important;
+    border-radius: 20px !important;
+    color: aliceblue;
+    justify-content: center !important;
+    padding: 50px !important;
+    border-radius: 25px ;
+}
+#RegisterBodys{
+    width: 400px !important;
+    height: 570px !important;
     margin: 40px auto;
     background: rgb(0, 0, 0,0.6) !important;
     border: 2px solid !important;
@@ -29,17 +42,34 @@ background-size: cover !important;
 }
 #main{
     border: 2rem white !important;
-    background-color: grey;
+    /* background-color: grey; */
+    margin-left: 80px !important;
 }
 #submit-btn{
     color: black;
-    background-color:blue;
+    background-color:rgb(6, 191, 62);
     width: 300px !important;
-    margin-left:20.1%  !important;
+    margin-left:40px   !important;
+}
+#submit-btn:hover{
+    color: black;
+    background-color:green;
+    transition: 0.8s !important;
+    width: 300px !important;
+    margin-left:40px   !important;
 }
 #updateData{
-    text-align: center !important;
+    /* text-align: center !important; */
+    margin-left: 26%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+th{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+label{
+    font-family:'Times New Roman', Times, serif
+
 }
 #btn1{
     width: 200px ;
@@ -88,4 +118,22 @@ transition-duration: 0.5s !important;
 color: black !important;
 transition-duration: 0.5s !important;
 
+}
+#RegisterLink{
+    margin-left: 30px !important;
+    color:gray
+}
+#RegisterLink:hover{
+    color: white !important;
+    text-align: center !important;
+    margin-left: 30px !important;
+    transition: 1s;
+}
+#home{
+    margin-left: 30% !important;
+    /* margin-bottom: 30% !important; */
+}
+#LogOutName{
+text-transform: uppercase !important;
+margin: 10px !important;
 }

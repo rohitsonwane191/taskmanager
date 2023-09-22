@@ -1,7 +1,7 @@
 import { Button, message } from 'antd';
 import React, { useEffect, useState } from 'react'
 import { useNavigate} from 'react-router'
-import Logout from '../nav/Logout';
+import Logout from '../nav/Logout.js';
 import { Link} from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 
@@ -49,9 +49,12 @@ Getdata();
     <>
     <Logout/>
 <Card>
+&nbsp;
+&nbsp;
 <div className='container-fluid '> 
+&nbsp;
 <Link to="/Register">
-<Button className='btn btn-primary'> ADD data</Button>
+<Button className='btn btn-success mb-2'>Add Data</Button>
 </Link>
 <table className='table'>
   <thead>
@@ -59,9 +62,7 @@ Getdata();
       <th>ID</th>
       <th>NAME</th>
       <th>EMAIL</th>
-      <th>MOBAIL</th>
-      <th>WORK</th>
-      <th>DSC</th>
+      <th>MOBIlE</th>
       <th>Action</th>
     </tr>
   </thead>
@@ -75,8 +76,6 @@ Getdata();
       <th>{ value.name}</th>
       <th>{ value.email}</th>
       <th>{ value.mobail}</th>
-      <th>{ value.work}</th>
-      <th>{ value.dsc}</th>
       <td className="d-flex justify-content-between">
         <Link to={`/view/${value._id}`}><Button variant='success' >view</Button></Link>
         <Link to={`/edit/${value._id}`}><Button  >update</Button></Link>

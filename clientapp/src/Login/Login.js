@@ -1,8 +1,8 @@
-import { Form, Input } from 'antd'
+import { Form, Input, Spin } from 'antd'
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { message } from 'antd'
-import { Spinner } from "react-bootstrap"
+// import { Spinner } from "react-bootstrap"
 import axios from 'axios'
 const Login = () => {
   const[lodig,setloding]=useState(false);
@@ -21,7 +21,7 @@ try {
   }
   return (
     <>
-    {lodig && <Spinner></Spinner> }
+    {lodig && <Spin tip="loading.... please waite some time" size="large" className="justify-content-center"></Spin> }
     <div id='bodys1' className='register-page'>
     <Form layout='vertical' onFinish={submitHandler}>
       <h1 id='logo' >Login</h1>
@@ -29,7 +29,7 @@ try {
         <Input type='email' placeholder='user123@gmail.com' required/>
         </Form.Item> 
       <Form.Item label="Password" name="password">
-        <Input   type='password' placeholder='Password' required />
+        <Input   type='password' placeholder='Password' required="plz enter your valid password" />
         </Form.Item> 
 
 <button id='btn1'>Login</button>

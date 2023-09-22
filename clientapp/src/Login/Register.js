@@ -24,10 +24,10 @@ try {
   <>
   
   {loding && <Spinner></Spinner>}
-<div id='bodys' className='register-page'>
+<div id='RegisterBodys' className='register-page'>
     <Form layout='vertical' onFinish={submitHandler}>
       <h1 id='log' className=' text text-danger' style={{textAlign:"center"}}>Register</h1>
-      <Form.Item label="Nmae" name="name">
+      <Form.Item label="Name " name="name">
         <Input type='name' placeholder='enter the name' required/>
         </Form.Item> 
       <Form.Item label="Email" name="email">  
@@ -36,7 +36,7 @@ try {
       <Form.Item label="Password" name="password">
         <Input   type='password' placeholder='Password' required />
         </Form.Item> 
-      <Form.Item label="mobail" name="mobail">
+      <Form.Item label="Mobile" name="mobail">
         <Input   type='number' placeholder='mobail' required />
         </Form.Item> 
 <button id='btn2'>Register</button>

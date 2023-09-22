@@ -14,7 +14,7 @@ const Logout = () => {
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container-fluid" >
-        <h4 class="navbar-brand" href="#">Taskmanager</h4>
+        <h4 class="navbar-brand" href="#">TaskManager</h4>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +24,7 @@ const Logout = () => {
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
           </ul>
-          <h1>{loginuser.name}</h1>
+          <h4 id='LogOutName'>{loginuser.name}</h4>
           <form className='justify-content-between'>
             <Link to="/"> <button class="btn btn-outline-danger" onClick={()=>localStorage.removeItem("user")} >LogOut</button> </Link>
           </form>
