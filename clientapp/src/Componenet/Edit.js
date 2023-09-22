@@ -1,7 +1,6 @@
 import {  message } from 'antd';
 import React, { useEffect, useState } from 'react'
 import {  useNavigate, useParams } from 'react-router';
-import { NavLink } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 
 const Edit = () => {
